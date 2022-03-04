@@ -74,3 +74,26 @@ function disemvowel(inputString) {
     var outputString = inputString.replace(/[aeiouAEIOU]/g, "");
     return outputString;
 }
+
+// Sentence Smash
+// Write a function that takes an array of words and smashes them together,
+// into a sentence and returns the sentence. You can ignore any need to sanitize,
+// words or add punctuation, but you should add,
+// spaces between each word. Be careful, there shouldn't be a space at the,
+// beginning or the end of the sentence!
+
+function smash (words) {
+    return words.join(" ");
+ };
+
+// Given a string, you have to return a string in which each character,
+// (case-sensitive) is repeated once.
+
+function doubleChar(str) {
+    var newString = "";
+    for( i = 0; i < str.length; i++) {
+      newString += str[i] + str[i];
+    }
+    return newString;
+  }
+  
