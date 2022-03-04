@@ -82,26 +82,44 @@ function disemvowel(inputString) {
 // spaces between each word. Be careful, there shouldn't be a space at the,
 // beginning or the end of the sentence!
 
-function smash (words) {
+function smash(words) {
     return words.join(" ");
- };
+};
 
 // Given a string, you have to return a string in which each character,
 // (case-sensitive) is repeated once.
 
 function doubleChar(str) {
     var newString = "";
-    for( i = 0; i < str.length; i++) {
-      newString += str[i] + str[i];
+    for (i = 0; i < str.length; i++) {
+        newString += str[i] + str[i];
     }
     return newString;
-  }
-  
+}
+
 // Make a program that filters a list of strings and returns,
 // a list with only your friends name in it.
 // If a name has exactly 4 letters in it, 
 // you can be sure that it has to be a friend of yours! Otherwise, you can be sure he's not.
 
-function friend(friends){
+function friend(friends) {
     return friends.filter(el => el.length === 4);
-  }
+}
+
+// Grade book
+// Complete the function so that it finds the average of the,
+// three scores passed to it and returns the letter value associated with that grade.
+
+function getGrade(s1, s2, s3) {
+    const score = (s1 + s2 + s3) / 3;
+    if (score >= 90) {
+        return 'A';
+    } else if (score >= 80) {
+        return 'B';
+    } else if (score >= 70) {
+        return 'C';
+    } else if (score >= 60) {
+        return 'D';
+    } else {
+        return 'F';
+    }
