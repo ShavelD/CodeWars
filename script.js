@@ -206,3 +206,9 @@ You get given the time in hours and you need to return,
 //     });
 //     return vowelsCount;
 // }
+
+// Write a function to split a string and convert it into an array of words. For example:
+
+// function stringToArray(string) {
+//     return string.trim().split(" ");
+// }
