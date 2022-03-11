@@ -225,3 +225,11 @@ You get given the time in hours and you need to return,
 //     }
 //     return a;
 // }
+
+// Write a function named repeater() that takes two arguments (a string and a number), 
+// and returns a new string where the input string is repeated that many times.
+
+// function repeater(string, n) {
+//     //Your code goes here.
+//     return string.repeat(n)
+// }
