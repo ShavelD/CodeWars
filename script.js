@@ -233,3 +233,19 @@ You get given the time in hours and you need to return,
 //     //Your code goes here.
 //     return string.repeat(n)
 // }
+
+// JavaScript Arrays support a filter function (starting in JavaScript 1.6).
+//  Use the filter functionality to complete the function given.
+// The solution would work like the following:
+
+// getEvenNumbers([2,4,5,6]) // should == [2,4,6]
+
+// function getEvenNumbers(numbersArray){
+//   for(i=0; i < numbersArray.length; i++){
+//     if(numbersArray[i] % 2 != 0){
+//        numbersArray.splice(i,1)
+//        i--;
+//     };
+//   };
+//   return numbersArray;
+// };
