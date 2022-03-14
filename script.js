@@ -1,3 +1,4 @@
+                                        // 1
 //Very simple, given an integer or a floating-point number, find its opposite.
 
 // 10; --> -10;
@@ -6,7 +7,7 @@
 // function opposite(number) {
 //     return (-number);
 // }
-
+                                        //2
 //Given an array of integers your solution should find the smallest integer.
 
 // class SmallestIntegerFinder {
@@ -20,7 +21,7 @@
 //         return smallest
 //     }
 // }
-
+                                        //3
 /*Given a set of numbers, return the additive inverse of each. Each positive 
 becomes negatives, and the negatives become positives.*/
 
@@ -37,7 +38,7 @@ becomes negatives, and the negatives become positives.*/
 
 // console.log(invert([1, -2, 3, 0]))
 
-
+                                       //4
 /*Create a function which answers the question "Are you playing banjo?".
 If your name starts with the letter "R" or lower case "r", you are playing banjo!*/
 
@@ -50,7 +51,7 @@ If your name starts with the letter "R" or lower case "r", you are playing banjo
 //         }
 //     }
 // }
-
+                                       //5
 /*Nathan loves cycling.
 Because Nathan knows it is important to stay hydrated, he drinks 0.5,
  litres of water per hour of cycling.
@@ -60,7 +61,7 @@ You get given the time in hours and you need to return,
 // function litres(time) {
 //     return Math.floor(time / 2);
 // }
-
+                                        //6
 // Trolls are attacking your comment section!
 // A common way to deal with this situation is to remove all,
 //  of the vowels from the trolls' comments, neutralizing the threat.
@@ -74,7 +75,7 @@ You get given the time in hours and you need to return,
 //     var outputString = inputString.replace(/[aeiouAEIOU]/g, "");
 //     return outputString;
 // }
-
+                                           //7
 // Sentence Smash
 // Write a function that takes an array of words and smashes them together,
 // into a sentence and returns the sentence. You can ignore any need to sanitize,
@@ -85,7 +86,7 @@ You get given the time in hours and you need to return,
 // function smash(words) {
 //     return words.join(" ");
 // };
-
+                                    //8
 // Given a string, you have to return a string in which each character,
 // (case-sensitive) is repeated once.
 
@@ -96,7 +97,7 @@ You get given the time in hours and you need to return,
 //     }
 //     return newString;
 // }
-
+                                      //9
 // Make a program that filters a list of strings and returns,
 // a list with only your friends name in it.
 // If a name has exactly 4 letters in it, 
@@ -105,7 +106,7 @@ You get given the time in hours and you need to return,
 // function friend(friends) {
 //     return friends.filter(el => el.length === 4);
 // }
-
+                                     //10
 // Grade book
 // Complete the function so that it finds the average of the,
 // three scores passed to it and returns the letter value associated with that grade.
@@ -123,8 +124,8 @@ You get given the time in hours and you need to return,
 //     } else {
 //         return 'F';
 //     }
-
-
+                                          
+                                             //11
 // Your team is writing a fancy new text editor and you've been tasked with implementing the line numbering.
 // Write a function which takes a list of strings and returns each line prepended by the correct number.
 // he numbering starts at 1. The format is n: string. Notice the colon and space in between.
@@ -142,7 +143,7 @@ You get given the time in hours and you need to return,
 //     }
 //     return resultArr;
 // }
-
+                                         //12
 // The Story:
 // Bob is working as a bus driver. However, he has become extremely popular amongst the city's,
 // residents. With so many passengers wanting to get aboard his bus, he sometimes has to face the problem,
@@ -160,13 +161,13 @@ You get given the time in hours and you need to return,
 // function enough(cap, on, wait) {
 //     return Math.max(on + wait - cap, 0);
 //   }
-
+                                           //13
 // Code as fast as you can! You need to double the integer and return it.
 
 // function doubleInteger(i) {
 //     return i * 2;
 // }
-
+                                          //14
 // Given an array of integers.
 // Return an array, where the first element is the count of positives numbers and the second element is sum ,
 // of negative numbers. 0 is neither positive nor negative.
@@ -187,7 +188,7 @@ You get given the time in hours and you need to return,
 //     }
 //     return array;
 // }
-
+                                      //15
 // Return the number (count) of vowels in the given string.
 // We will consider a, e, i, o, u as vowels for this Kata (but not y).
 // The input string will only consist of lower case letters and/or spaces.
@@ -206,13 +207,13 @@ You get given the time in hours and you need to return,
 //     });
 //     return vowelsCount;
 // }
-
+                                       //16
 // Write a function to split a string and convert it into an array of words. For example:
 
 // function stringToArray(string) {
 //     return string.trim().split(" ");
 // }
-
+                                     //17
 // Simple, given a string of words, return the length of the shortest word(s).
 // String will never be empty and you do not need to account for different data types.
 
@@ -225,7 +226,7 @@ You get given the time in hours and you need to return,
 //     }
 //     return a;
 // }
-
+                                       //18
 // Write a function named repeater() that takes two arguments (a string and a number), 
 // and returns a new string where the input string is repeated that many times.
 
@@ -233,7 +234,7 @@ You get given the time in hours and you need to return,
 //     //Your code goes here.
 //     return string.repeat(n)
 // }
-
+                                   //19
 // JavaScript Arrays support a filter function (starting in JavaScript 1.6).
 //  Use the filter functionality to complete the function given.
 // The solution would work like the following:
@@ -249,3 +250,25 @@ You get given the time in hours and you need to return,
 //   };
 //   return numbersArray;
 // };
+
+                                         //20
+// Write a function that takes an array of strings as an argument,
+//     and returns a sorted array containing the same strings, ordered from shortest to longest.
+// For example, if this array were passed as an argument:
+
+// ["Telescopes", "Glasses", "Eyes", "Monocles"]
+
+// Your function would return the following array:
+
+// ["Eyes", "Glasses", "Monocles", "Telescopes"]
+
+// All of the strings in the array passed to your function will,
+// be different lengths, so you will not have to decide how to order,
+//     multiple strings of the same length.
+
+
+// function sortByLength(array) {
+//     return array.sort(function (a, b) {
+//         return a.length - b.length;
+//     });
+// }
