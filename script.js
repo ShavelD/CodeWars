@@ -286,3 +286,15 @@ You get given the time in hours and you need to return,
 //     numbers = numbers.split(" ");
 //     return Math.max.apply(null, numbers) + " " + Math.min.apply(null, numbers)
 // }                                    
+
+// My friend John likes to go to the cinema. He can choose between system A and system B.
+
+// function movie(card, ticket, perc) {
+//     var costA = n = 0,
+//         costB = card;
+//     while (Math.ceil(costB) >= costA) {
+//         costA += ticket;
+//         costB += ticket * Math.pow(perc,++n);
+//     }
+//     return n;
+// };
