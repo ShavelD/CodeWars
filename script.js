@@ -273,7 +273,7 @@ You get given the time in hours and you need to return,
 //     });
 // }
 
-                                             //21
+//21
 // In this little assignment you are given a string of space separated numbers,
 // and have to return the highest and lowest number.
 
@@ -312,3 +312,33 @@ You get given the time in hours and you need to return,
 // var FilterString = function(value) {
 //     return parseInt(value.replace(/[a-z]/gi,''))
 //     }
+
+// Task
+// Given an array of integers , Find the minimum sum which is obtained from summing each Two integers product . 
+
+// function minSum(arr) {
+//     const sorted = arr.sort((a, b) => a - b)
+//     let sum = 0;
+//     for (let i = 0; i < arr.length / 2; i++) {
+//         sum += sorted[i] * sorted[sorted.length - 1 - i]
+//     }
+//     return sum
+// }
+
+// Remove the duplicates from a list of integers, keeping the last ( rightmost ) occurrence of each element.
+
+// Example:
+// For input: [3, 4, 4, 3, 6, 3]
+
+// remove the 3 at index 0
+// remove the 4 at index 1
+// remove the 3 at index 3
+// Expected output: [4, 6, 3]
+
+// function solve(arr) {
+//     let newArr = arr.slice().filter((n, i) => arr.indexOf(n) !== i)
+//     for (let i = 0; i < newArr.length; i++) {
+//         arr.splice(arr.indexOf(newArr[i]), 1)
+//     }
+//     return arr
+// }
