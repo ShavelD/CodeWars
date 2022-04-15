@@ -386,3 +386,18 @@ You get given the time in hours and you need to return,
 //     const odd = array.filter((x) => x % 2).sort((a, b) => a - b);
 //     return array.map((x) => x % 2 ? odd.shift() : x);
 // }
+
+// Implement the function unique_in_order which takes as argument a sequence and returns,
+// a list of items without any elements,
+// with the same value next to each other and preserving the original order of elements.
+
+// function uniqueInOrder(iterable) {
+//     const result = []
+//     for (let i = 0; i < iterable.length; i++) {
+//         if (iterable[i] !== iterable[i + 1]) {
+//             result.push(iterable[i])
+//         }
+//     }
+//     return result
+// }
+
