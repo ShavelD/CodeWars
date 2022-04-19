@@ -401,3 +401,38 @@ You get given the time in hours and you need to return,
 //     return result
 // }
 
+// Complete the solution so that it reverses the string passed into it.
+
+// 'world'  =>  'dlrow'
+// 'word'   =>  'drow'
+
+// function solution(str){
+//     let array = str.split("");
+
+//     //Use the reverse method
+//     array.reverse()
+
+//     //Convert it back to a string and return
+//     return array.join("")
+// }
+
+// Complete the solution so that it returns true if the,
+// first argument(string) passed in ends with the 2nd argument (also a string).
+
+// Examples:
+// solution('abc', 'bc') // returns true
+// solution('abc', 'd') // returns false
+
+// function solution(str, ending){
+//     return str.indexOf(ending, str.length - ending.length) !== -1;
+//  }
+
+// Implement a function that adds two numbers together and returns their sum in binary. 
+// The conversion can be done before, or after the addition.
+// The binary number returned should be a string.
+
+// Examples:(Input1, Input2 --> Output (explanation)))
+
+// function addBinary(a,b) {
+//     return (a+b).toString(2)
+//   }
