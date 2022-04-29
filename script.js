@@ -505,3 +505,17 @@ You get given the time in hours and you need to return,
 //     }
 //     return true;
 //  }
+
+// Given two integers a and b, which can be positive or negative,
+// find the sum of all the integers between and including them and return it.
+// If the two numbers are equal return a or b.  Note: a and b are not ordered!
+
+// if(a == b) {
+//     return a
+// }
+// else if (a < b) {
+//     return a + GetSum(a+1, b)
+// } else {
+//     return a + GetSum(a-1, b)
+// };
+// }
