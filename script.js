@@ -563,3 +563,10 @@ You get given the time in hours and you need to return,
 // function filter_list(l) {
 //     return l.filter( str => typeof str != 'string');
 // }
+
+// We need a function that can transform a number into a string.
+// What ways of achieving this do you know?
+
+// function numberToString(num) {
+//     return  num.toString();
+// }
