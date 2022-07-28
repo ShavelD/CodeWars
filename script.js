@@ -670,11 +670,11 @@ You get given the time in hours and you need to return,
 
 // function countBy(x, n) {
 //    const z = [];
-  
+
 //   for (let i = 1; i <= n; i ++) {
 //    let y = x * i 
 //    z.push(y);
-      
+
 //   }
 //   return z
 // }
@@ -691,14 +691,14 @@ You get given the time in hours and you need to return,
 //   // Your solution here
 //     let costPerDay = 40
 //     let totalCost = costPerDay * d
-    
+
 //     if (d >= 7) {
 //         totalCost -= 50
 //     }
 //     else if (d >= 3) {
 //         totalCost -= 20
 //     }
-    
+
 //     return totalCost
 // }
 
@@ -730,20 +730,6 @@ You get given the time in hours and you need to return,
 //     let bearGrills = Math.ceil(year / 100)
 //     return bearGrills;
 //   }
-
-
-
-
-let state = {
-    name: 'Dima',
-    age: 25,
-    school: {
-        adress: 'Minsk'
-    }
-}
-console.log(state)
-
-
 
 // // links to watch theory
 // // https://www.youtube.com/watch?v=6napu-MGQDo&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=47
