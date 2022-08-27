@@ -909,3 +909,10 @@ You get given the time in hours and you need to return,
 
 // let man7FullCopy  //  your code
 
+// Write a function that checks if a given string (case insensitive) is a palindrome.
+
+// function isPalindrome(str) {
+//     str = str.toLowerCase()   
+//       return str === str.split('').reverse().join('')
+      
+//     }
